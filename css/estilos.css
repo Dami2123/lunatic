@@ -88,7 +88,7 @@ footer{
 
 
 .legal{
-    font-size: 0.5rem;  
+    font-size: 0.7rem;  
 }
 
 .redes {
@@ -97,8 +97,13 @@ footer{
     
 }
 
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .contendorCategorias{
-    display: inline-block;
     margin: 10px 20px;
     padding: 10px ;
     background-color: #5bc7ba2f;
@@ -215,7 +220,6 @@ button{
 }
 
 .contendorCatalogo{
-    display: inline-block;
     margin: 20px 20px;
     padding: 10px ;
     background-color: #5bc7ba2f;
