@@ -37,10 +37,13 @@ body {
     
 }
 
-.desplegable {
-    display: flex;
-    flex-direction: column;
-    
+
+
+@media (max-width: 990px) {
+    .desplegable {
+        display: flex;
+        flex-direction: column;
+    }  
 }
 
 main{
