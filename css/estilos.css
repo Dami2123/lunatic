@@ -37,6 +37,12 @@ body {
     
 }
 
+.desplegable {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 main{
     text-align: center;
     
