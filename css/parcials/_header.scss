@@ -12,6 +12,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .header {
@@ -40,6 +41,12 @@
     .desplegable {
         display: flex;
         flex-direction: column;
+        text-align: center;
+
+    }
+    .menus {
+       text-align: center;
+        
     }
 }
 

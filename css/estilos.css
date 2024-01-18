@@ -69,6 +69,10 @@ h2 {
   .desplegable {
     display: flex;
     flex-direction: column;
+    text-align: center;
+  }
+  .menus {
+    text-align: center;
   }
 }
 .bounce {
@@ -197,7 +201,7 @@ iframe {
 @media (max-width: 600px) {
   iframe {
     padding: 20px;
-    width: 400px;
+    width: 370px;
   }
 }
 form {
