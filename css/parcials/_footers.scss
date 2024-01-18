@@ -1,0 +1,21 @@
+footer {
+  background-color: #5bc7ba69;
+  text-align: center;
+  margin-top: 50px;
+  padding: 7px 0;
+}
+
+.legal {
+  font-size: 1rem;
+}
+
+.redes {
+  width: 40px;
+  padding: 20px 0;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+  
+  }
+}

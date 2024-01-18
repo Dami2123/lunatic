@@ -1,0 +1,32 @@
+.portada {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.contendorCategorias {
+  margin: 10px 30px;
+  padding: 10px;
+  background-color: $color_transpa;
+  border: 1px solid $color_transpa;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.062) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+  .imgCategoria {
+    width: 150px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+}
