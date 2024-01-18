@@ -13,12 +13,14 @@ a {
 body {
   background-color: #f1ffff;
   font-family: oswald;
-  height: 100vh;
+  position: relative;
+  padding-bottom: 180px;
 }
 
 main {
   text-align: center;
   padding-top: 30px;
+  min-height: 100vh;
 }
 
 ∫ h1 {
@@ -151,6 +153,9 @@ footer {
   text-align: center;
   margin-top: 50px;
   padding: 7px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .legal {

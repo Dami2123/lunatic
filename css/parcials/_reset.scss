@@ -11,12 +11,15 @@ a {
 body {
     background-color: $color_fondo;
     font-family: oswald;
-    height: 100vh;
+    position: relative;
+    padding-bottom: 180px;
+   
 }
 
 main {
     text-align: center;
     padding-top: 30px;
+    min-height: 100vh;
     
 }
 ∫
