@@ -121,6 +121,8 @@ h2 {
 }
 .carrusel {
   margin-bottom: 2rem;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .categorias {
