@@ -1,6 +1,6 @@
-.portada {
-  padding: 10px 0;
-  width: 100%;
+.carrusel{
+  margin-bottom: 2rem;
+  ;
 }
 
 .categorias {
@@ -29,4 +29,10 @@
     box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 
+}
+
+.carro{
+  button{
+    box-shadow: none;
+  }  
 }
