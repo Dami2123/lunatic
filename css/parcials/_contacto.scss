@@ -3,7 +3,7 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 60%;
-    background-color: #d1b3b36a;
+    background-color: #b6b6b693;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     
@@ -83,7 +83,7 @@ button {
     font-size: 1.2rem;
     font-family: oswald;
     font-weight: 400;
-    background-color: #5bc7ba51;
+    background-color: $color_footer;
     border: 1px solid #5bc7ba20;
     border-radius: 3px;
     padding: 0px 5px;
