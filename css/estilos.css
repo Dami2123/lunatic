@@ -67,13 +67,14 @@ h2 {
   color: #5bc7ba;
 }
 .menuList a {
-  margin: 0 15px;
+  padding: 0;
+  margin: 0 20px;
   font-family: oswald;
   font-weight: 300;
   color: #ffffff;
 }
 .menuList a:hover {
-  font-weight: 400;
+  font-weight: 600;
   border-bottom: 2px solid #5bc7ba;
 }
 .menuList a:active {
@@ -83,6 +84,10 @@ h2 {
 
 .desplegable {
   background-color: #0c0c0c;
+  padding: 5px;
+}
+.desplegable a {
+  margin: 0px;
 }
 .desplegable .todo {
   margin-top: 25px;
