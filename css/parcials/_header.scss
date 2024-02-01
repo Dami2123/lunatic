@@ -41,7 +41,7 @@
 
 
     a {
-        padding: 0 5px;
+        margin: 0 15px;
         font-family: oswald;
         font-weight: 300;
         color: $color_fondo;
@@ -50,7 +50,6 @@
         &:hover {
             font-weight: 400;
             border-bottom: 2px solid $color_base;
-            
         }
 
         &:active {
@@ -68,7 +67,15 @@
 
 .desplegable {
     background-color: $color_menu;
+    .todo {
+        margin-top: 25px;
+        color:$color_base;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
 }
+
+
 
 .nave {
     padding: 0px;

@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <header class="fadeInDown">
-        <nav class="nav navbar navbar-expand-lg bg-body-tertiary nave ">
+    <header class="fadeInDown fixed-top">
+        <nav class="nav navbar navbar-expand-lg bg-body-tertiary nave  ">
             <div class="container-fluid header">
                 <a class="navbar-brand bounce" href="index.html">
                     <img class="logo" src="./img/logonom.png" alt="logo tienda Lunatic">
@@ -44,6 +44,8 @@
                                     <li><a class="dropdown-item" href="./html/catalogo.html#vestidos">Vestidos y
                                             Faldas</a>
                                     </li>
+                                    <li><a class="dropdown-item todo" href="./html/catalogo.html#chaquetas">Ver todo</a>
+                                    </li>
                                 </div>
                             </ul>
                         </li>
@@ -67,41 +69,43 @@
 
     </header>
     <main>
-
-        
-        <div id="carouselExampleAutoplaying" class="carousel slide carrusel fadeInDown" data-bs-ride="carousel">
-
-            <div class="carousel-indicators carro">
+        <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide carro carrusel fadeInDown" data-bs-ride="carousel">
+            <div class="carousel-indicators ">
                 <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
-            <div class="carousel-inner">
+            
+            <div class="carousel-inner ">
               <div class="carousel-item active">
                 <img src="./img/portada1.jpg" alt="portada temporada verano"  class="d-block w-100">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item " >
                 <img src="./img/portada2.jpg" alt="portada temporada verano"  class="d-block w-100">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item ">
                 <img src="./img/portada3.jpg" alt="portada temporada verano"  class="d-block w-100">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+           
           </div>
+        
+        
 
 
 
     
 
-        <h2>Categorias</h2>
+        <h2 class="tituloh">Categorias</h2>
 
         <div class="categorias">
             <div class="contendorCategorias">

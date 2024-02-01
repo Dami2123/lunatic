@@ -20,6 +20,7 @@ body {
 main {
   text-align: center;
   min-height: 100vh;
+  margin-top: 85px;
 }
 
 ∫ h1 {
@@ -66,7 +67,7 @@ h2 {
   color: #5bc7ba;
 }
 .menuList a {
-  padding: 0 5px;
+  margin: 0 15px;
   font-family: oswald;
   font-weight: 300;
   color: #ffffff;
@@ -82,6 +83,12 @@ h2 {
 
 .desplegable {
   background-color: #0c0c0c;
+}
+.desplegable .todo {
+  margin-top: 25px;
+  color: #5bc7ba;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .nave {
@@ -149,7 +156,6 @@ h2 {
   }
 }
 .carrusel {
-  margin-bottom: 2rem;
   padding-top: 0px;
   margin-top: 0px;
   z-index: -1;
@@ -161,29 +167,45 @@ h2 {
   justify-content: center;
 }
 
+.tituloh {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
 .contendorCategorias {
   margin: 10px 30px;
   padding: 10px;
   background-color: rgba(94, 206, 193, 0.2078431373);
-  border: 1px solid rgba(94, 206, 193, 0.2078431373);
   border-radius: 10px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.062) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.063) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   transition: all 0.2s ease-out;
+}
+.contendorCategorias p {
+  margin-bottom: 0;
 }
 .contendorCategorias .imgCategoria {
   width: 150px;
 }
 .contendorCategorias:hover {
-  transform: scale(1.1);
-  box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px, rgba(0, 0, 0, 0.115) 0px 6px 6px;
 }
 .contendorCategorias:hover p {
   font-weight: 800;
+  color: #5bc7ba;
 }
 
 .carro button {
   box-shadow: none;
+}
+.carro button:hover {
+  transform: scale(1.2);
+}
+.carro button:active {
+  transform: scale(1.2);
 }
 
 footer {
@@ -228,6 +250,7 @@ footer {
 }
 
 .ubicacion {
+  margin-top: 130px;
   text-align: center;
 }
 
@@ -247,12 +270,16 @@ iframe {
     width: 370px;
   }
 }
+.titulohconct {
+  margin-top: 130px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
 form {
-  padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 60%;
-  background-color: rgba(182, 182, 182, 0.5764705882);
+  background-color: rgba(209, 179, 179, 0.4156862745);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -260,15 +287,11 @@ form {
 @media (max-width: 900px) {
   form {
     width: 70%;
-  }
-}
-@media (max-width: 600px) {
-  form {
-    width: 70%;
     grid-template-columns: 1fr;
   }
 }
 .formulario {
+  margin: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -332,9 +355,13 @@ button {
   border: 1px solid rgba(91, 199, 186, 0.1254901961);
   border-radius: 3px;
   padding: 0px 5px;
-  margin-top: 20px;
+  margin: 20px 20px;
   width: 100px;
   box-shadow: rgba(0, 0, 0, 0.062) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.margen {
+  height: 85px;
 }
 
 .contendorCatalogo {
@@ -351,7 +378,6 @@ button {
 }
 
 .contenedorTipo {
-  margin-top: 40px;
   text-align: center;
   width: 100%;
 }
