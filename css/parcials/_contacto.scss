@@ -2,16 +2,16 @@
     margin-top: 130px;
     font-weight: 500;
     font-size: 2rem;
-    
-  }
+
+}
 
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color:$color_extra;
+    background-color: $color_extra;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    
+
 }
 
 @media (max-width: 900px) {
@@ -30,7 +30,7 @@ form {
     justify-content: center;
     margin: 70px 0;
     width: 100%;
-    
+
 }
 
 .formInputs {

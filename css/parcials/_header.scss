@@ -5,7 +5,7 @@
     &:hover {
         transform: scale(1.1);
         transition: 0.3s;
-            
+
     }
 }
 
@@ -32,9 +32,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
-    .activo{
+
+    .activo {
         color: $color_base;
 
     }
@@ -45,7 +45,7 @@
         font-family: oswald;
         font-weight: 300;
         color: $color_fondo;
-        
+
 
         &:hover {
             font-weight: 400;
@@ -55,11 +55,11 @@
         &:active {
             color: $color_base;
             background-color: $color_menu;
-            
+
         }
     }
 
-    
+
 
 }
 
@@ -67,9 +67,10 @@
 
 .desplegable {
     background-color: $color_menu;
+
     .todo {
         margin-top: 25px;
-        color:$color_base;
+        color: $color_base;
         font-size: 0.8rem;
         font-weight: 600;
     }
