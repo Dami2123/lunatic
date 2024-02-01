@@ -41,6 +41,11 @@ h2 {
   transform: scale(1.1);
   transition: 0.3s;
 }
+@media (max-width: 389px) {
+  .logo {
+    width: 170px;
+  }
+}
 
 .menus {
   width: 100%;
